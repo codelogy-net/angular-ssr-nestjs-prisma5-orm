@@ -1,0 +1,10 @@
+<h1>Angular SSR Application</h1>
+
+<ul>
+  <li *ngFor="let task of tasks">
+    <div>
+      <strong>{{ task.name }}</strong>
+    </div>
+    <div>Assigned to: {{ task.user.name }}</div>
+  </li>
+</ul>
